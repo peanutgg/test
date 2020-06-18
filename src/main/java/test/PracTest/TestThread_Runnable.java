@@ -34,7 +34,6 @@ public class TestThread_Runnable implements Runnable{
         return 0;
     }
 
-    @Override
     public void run() {
         try {
             update();

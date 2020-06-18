@@ -11,7 +11,6 @@ public class DynamicProxyTest {
 
     static class Hello implements  IHello{
 
-        @Override
         public void sayHello() {
             System.out.println("hello world");
         }
