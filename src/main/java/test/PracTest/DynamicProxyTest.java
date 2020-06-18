@@ -1,4 +1,4 @@
-package PracTest;
+package test.PracTest;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
