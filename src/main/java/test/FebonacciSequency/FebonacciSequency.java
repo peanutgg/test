@@ -4,7 +4,7 @@ public class FebonacciSequency {
     public static void main(String[] args) {
 
         int tier = 0;
-        for( ; tier < 10; tier++){
+        for (; tier < 10; tier++) {
             System.out.println(febonacci(tier));
         }
     }
