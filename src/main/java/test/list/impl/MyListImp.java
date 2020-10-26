@@ -9,7 +9,6 @@ public class MyListImp<T> implements MyList<T> {
 
     transient int size = 0;
 
-    @Override
     public int getSize() {
         return size;
     }
@@ -19,7 +18,6 @@ public class MyListImp<T> implements MyList<T> {
         this.tail = tail;
     }
 
-    @Override
     public void addLast(T t) {
         if (head == null) {
             tail = head = new Node<T>(null, t, null);
@@ -36,7 +34,6 @@ public class MyListImp<T> implements MyList<T> {
 
     }
 
-    @Override
     public T removeLast() {
         Node<T> result = tail;
         tail.prev.next = null;
@@ -44,12 +41,10 @@ public class MyListImp<T> implements MyList<T> {
         return result.data;
     }
 
-    @Override
     public T getInt(int index) {
         return node(index).data;
     }
 
-    @Override
     public T addIndex(int index, T t) {
         Node<T> temp = node(index);
         Node<T> newNode = new Node(temp.prev, t, temp);
