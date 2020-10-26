@@ -1,6 +1,7 @@
 package test.stack.impl;
 
-import com.example.demo.stack.interf.Stack;
+
+import test.stack.interf.Stack;
 
 import java.util.Arrays;
 import java.util.ConcurrentModificationException;
