@@ -1,6 +1,7 @@
 package test.stack.test;
 
-import com.example.demo.stack.impl.MyStack;
+
+import test.stack.impl.MyStack;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

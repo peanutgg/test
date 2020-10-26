@@ -1,7 +1,7 @@
-package test.list.impl;
+package test.MyList.impl;
 
 
-import test.list.interf.MyList;
+import test.MyList.interf.MyList;
 
 public class MyListImp<T> implements MyList<T> {
     private Node<T> head;

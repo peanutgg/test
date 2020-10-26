@@ -1,4 +1,6 @@
-package test.PracTest;
+package test.Thread;
+
+import test.Thread.TestThread_Runnable;
 
 import java.util.concurrent.*;
 

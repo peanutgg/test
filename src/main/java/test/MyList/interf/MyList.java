@@ -1,4 +1,4 @@
-package test.list.interf;
+package test.MyList.interf;
 
 public interface MyList<T> {
     void addLast(T t);

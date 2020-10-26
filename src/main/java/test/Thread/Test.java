@@ -1,4 +1,4 @@
-package test.PracTest;
+package test.Thread;
 
 import java.util.concurrent.FutureTask;
 

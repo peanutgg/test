@@ -1,4 +1,4 @@
-package test.PracTest;
+package test.Cglib;
 
 public class CglibProxy {
 }
