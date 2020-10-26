@@ -1,4 +1,4 @@
-package PracTest;
+package test.PracTest;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package PracTest;
+package test.PracTest;
 
 import java.util.concurrent.*;
 
@@ -6,7 +6,6 @@ public class Test2 {
     public static void main(String[] args) throws Exception {
 
         ThreadFactory namedThreadFactory = new ThreadFactory() {
-            @Override
             public Thread newThread(Runnable r) {
 
                 return new Thread(r);
@@ -14,7 +13,7 @@ public class Test2 {
         };
         Thread pre = Thread.currentThread();
         ExecutorService pool = new ThreadPoolExecutor(6, 200, 20000L,
-                TimeUnit.MILLISECONDS, new LinkedBlockingDeque<Runnable>(), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
+                TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>(), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
         pool.execute(new TestThread_Runnable(pre));
         pool.execute(new TestThread_Runnable(pre));
         pool.execute(new TestThread_Runnable(pre));

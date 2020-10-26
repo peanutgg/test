@@ -1,4 +1,4 @@
-package PracTest;
+package test.PracTest;
 
-public class CglibProxy implements MethodInterceptoe {
+public class CglibProxy {
 }

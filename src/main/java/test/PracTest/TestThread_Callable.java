@@ -1,11 +1,10 @@
-package PracTest;
+package test.PracTest;
 
 import java.util.concurrent.Callable;
 
 public class TestThread_Callable implements Callable {
     private  ThreadLocal<Integer> li = new ThreadLocal<>();
 
-    @Override
     public Object call() throws Exception {
         return update();
     }

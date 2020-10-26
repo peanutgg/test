@@ -1,4 +1,4 @@
-package PracTest;
+package test.PracTest;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -11,7 +11,6 @@ public class DynamicProxyTest {
 
     static class Hello implements  IHello{
 
-        @Override
         public void sayHello() {
             System.out.println("hello world");
         }
