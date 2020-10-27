@@ -11,11 +11,12 @@ import java.util.Comparator;
  */
 public class Solution1365 {
     public static void main(String[] args) {
-
+        int[] nums = {8,1,2,2,3};
+        System.out.println(smallerNumbersThanCurrent(nums).toString());
     }
 
 
-    public int[] smallerNumbersThanCurrent(int[] nums) {
+    public static int[] smallerNumbersThanCurrent(int[] nums) {
         int n = nums.length;
         int[][] data = new int[n][2];
         for (int i = 0; i < n; i++) {
