@@ -11,12 +11,13 @@ import java.util.Comparator;
  */
 public class Solution1365 {
     public static void main(String[] args) {
-        int[] nums = {8,1,2,2,3};
-        System.out.println(smallerNumbersThanCurrent(nums).toString());
+        Integer[] nums = {8,1,2,2,3};
+        System.out.println(11122);
+        Arrays.asList(smallerNumbersThanCurrent(nums)).forEach(System.out::println);
     }
 
 
-    public static int[] smallerNumbersThanCurrent(int[] nums) {
+    public static Integer[] smallerNumbersThanCurrent(Integer[] nums) {
         int n = nums.length;
         int[][] data = new int[n][2];
         for (int i = 0; i < n; i++) {
@@ -28,8 +29,7 @@ public class Solution1365 {
                 return data1[0] - data2[0];
             }
         });
-
-        int[] ret = new int[n];
+        Integer[] ret = new Integer[n];
         int prev = -1;
         for (int i = 0; i < n; i++) {
             if (prev == -1 || data[i][0] != data[i - 1][0]) {
