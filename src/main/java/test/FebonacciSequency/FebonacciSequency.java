@@ -19,5 +19,8 @@ public class FebonacciSequency {
         }
         return febonacci(n - 1) + febonacci(n - 2);
     }
+    //f 3
+    //f 2 + f 1
+    //f 1 + f 0 + 1
 
 }
