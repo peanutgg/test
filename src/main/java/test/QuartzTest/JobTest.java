@@ -1,4 +1,4 @@
-package QuartzTest;
+package test.QuartzTest;
 public class JobTest   {
 
 

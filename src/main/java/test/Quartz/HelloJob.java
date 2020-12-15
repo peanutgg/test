@@ -1,7 +1,10 @@
 package test.Quartz;
 
-public class HelloJob /*implements Job*/ {
-    /*public void execute(JobExecutionContext context) throws JobExecutionException {
+import org.quartz.*;
+import org.quartz.impl.StdSchedulerFactory;
+
+public class HelloJob implements Job {
+    public void execute(JobExecutionContext context) throws JobExecutionException {
 
         System.out.println(System.currentTimeMillis() + "Hello world");
     }
@@ -27,5 +30,5 @@ public class HelloJob /*implements Job*/ {
     }
     class Test{
 
-    }*/
+    }
 }
