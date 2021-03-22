@@ -30,11 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b60da8-305c-4848-a740-ae6146572562" name="Default Changelist" comment="delete leetcode exclude 1672">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/leetcode/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/leetcode/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/newTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/TwentyTwentyOne/StackLIFO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="3656d71b-064a-4e5f-bc80-226738f35fb4" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,6 +234,7 @@
       <workItem from="1609830413153" duration="2314000" />
       <workItem from="1609897981948" duration="2697000" />
       <workItem from="1609988504696" duration="3675000" />
+      <workItem from="1616382127759" duration="3227000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1592473671363</created>
